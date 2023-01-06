@@ -9,7 +9,7 @@ def main():
     k=""
     GPIO.setup(pin_num, GPIO.OUT, initial=GPIO.LOW)
     GPIO.output(pin_num, 0)
-    
+    mylcd = LCD.lcd()
     
       # A B C D E F G DP
     fnd = [(1,1,1,1,1,1,0,0), #0
